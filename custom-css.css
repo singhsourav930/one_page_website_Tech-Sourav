@@ -1,0 +1,299 @@
+body{
+    margin: 0px;
+    height: 0px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 9999999;
+    margin: 0px;
+}
+.wrap-container{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+.header-images .brand-image{
+    width: 170px;
+    height: 40px;
+    padding: 10px 0px;
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 1.45;
+    color: white;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    background: rgba(0,0,0,0.5);
+}
+.active{
+    background: rgba(0,0,0,0.5);
+}
+.menu ul a{
+    text-decoration: none;
+}
+.header-images{
+    float: left;
+}
+.menu{
+    float: right;
+}
+
+
+
+
+/* cover wrapper background */
+.wrapper{
+    background: url(images/1.jpg) 100% fixed ;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper-content{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.wrapper-content h1{
+    color: #004700;
+    font-size: 40px;
+    -webkit-text-stroke:1px #00ff66;
+    -moz-text-stroke:1px #00ff66;
+    margin-bottom: 0px;
+}
+.wrapper-content p{
+    color: white;
+}
+.learn-btn{
+     font-size: 25px;
+    border: 1px solid #00ff43;
+    border-radius: 100px;
+    background: linear-gradient(rgba(0, 255, 55, 0.6),rgba(0,255,55,0.4));
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.learn-btn:hover{
+    background: linear-gradient(rgba(0, 255, 55, 0.7),rgba(0,255,55,0.4));
+}
+
+.menu-btn{
+    position: absolute;
+    right: 20px;
+    top:4px;
+    width: 45px;
+    height: 40px;
+    display: none;
+}
+
+
+.services{
+    width:100%;
+    min-height: 400px;
+    box-shadow: 0px -10px 20px white;
+    position: relative;
+}
+.service-container{
+    width: 80%;
+    min-height: 400px;
+    position: absolute;
+    background: white;
+    left: 10%;
+    top: -30px;
+    right: 10%;
+    box-shadow: 0px -10px 20px white;
+}
+.services h1{
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 71, 0, 0.64);
+    padding-top: 40px;
+    padding-bottom: 5%;
+}
+
+.div-box{
+    width: 25%;
+    min-height: 200px;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.div-box i{
+    font-size: 60px;
+    color: orange;
+    margin-bottom: 20px;
+}
+.div-box h2{
+    color:#5f5e5e;
+    font-size: xx-large;
+    margin: 0px;
+}
+.div-box h3{
+    color: gray;
+}
+.div-box p{
+    color: lightgray;
+    padding-bottom: 30px;
+}
+
+
+.about-us{
+    width: 100%;
+    min-height: 300px;
+    background-image: url(images/autumn-1649362_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    text-align: center;
+}
+.about-us h1{
+    color: #004700;
+    padding: 50px 0px;
+    margin-bottom: -30px;
+}
+.about-us p{
+    color: #004700;
+    font-family: cursive;
+    font-style: italic;
+    line-height: 2.5;
+    padding-bottom: 5%;
+}
+
+.contact-us{
+    width: 100%;
+    min-height: 410px;
+    margin-bottom: 50px;
+}
+.contact-us h1{
+    color: rgba(0, 71, 0, 0.64);
+    text-align: center;
+    padding: 50px;
+    margin-top: -15px;
+    font-family: sans-serif;
+}
+.contact-image{
+    width: 50%;
+    float: left;
+}
+.contact-image img{
+    width: 90%;
+    margin: 0px auto;
+}
+.contact-form{
+    width: 50%;
+    float: right;
+}
+.contact-form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #5c895c;
+    padding-bottom: 8px;
+    width: 32%;
+}
+.contact-form .subject{
+    width: 65%;
+    margin:30px 0px;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 120px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #5c895c;
+    resize: none;
+    font-family: sans-serif;
+}
+.contact-form .submit{
+     border: 1px solid #d8ffe2;
+    background-image: linear-gradient(#4db345,#aef382);
+    color: #338c08;
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 100px;
+}
+.contact-form .submit:hover{
+    background-image: linear-gradient(#3bad33,#baef9b);
+}
+
+
+
+.footer{
+    clear: both;
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(rgba(255, 165, 0, 0.35),orange);
+}
+.footer .widget-footer{
+    width: 100%;
+    min-height: 240px;
+}
+.footer .widgets{
+    font-family: sans-serif;
+    width: 20%;
+    min-height: 220px;
+    padding: 2.5%;
+    float: left;
+}
+.footer .widgets img{
+    margin: 5px;
+}
+.footer h4{
+    color: darkslategray;
+    border-bottom:1px solid rgba(0, 128, 0, 0.23);
+    font-size: 15px;
+}
+.footer .widgets p{
+    color: rgb(142, 142, 142);
+    font-size: small;
+    margin: 8px 0px;
+}
+.footer .widgets strong{
+    color: darkslategray;
+}
+.footer .widgets .subscribe-text{
+    width: 100%;
+    border: 1px solid rgba(0,128,0,0.23);
+    border-radius: 100px;
+    height: 25px;
+}
+.footer .widgets .subscribe-btn{
+    border: 1px solid #d8ffe2;
+    background-image: linear-gradient(#4db345,#aef382);
+    color: #338c08;
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.footer .widgets .subscribe-btn:hover{
+    background-image: linear-gradient(#3bad33,#baefab);
+}
+.footer .main-footer{
+    clear: both;
+    width:100%;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+}
+.footer .main-footer p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 22px;
+}
